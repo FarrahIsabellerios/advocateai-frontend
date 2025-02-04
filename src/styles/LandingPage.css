@@ -1,0 +1,33 @@
+/* Apply styles to the entire page */
+html, body {
+    height: 100%; /* Make sure the page takes full height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Target the root container */
+div {
+    height: 100vh; /* Make sure it takes up the full viewport height */
+    width: 100vw;  /* Make sure it takes up the full viewport width */
+    
+    /* Add Background Image */
+    background-image: url("../images/landingPageBackGround.png");
+    background-size: cover;  /* Ensures it covers the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.landing-page-button {
+    text-align: center; /* Centers the button */
+    margin-top: 280px; /* Adds space between heading and button */
+  }
+  
+  .custom-button {
+    width: 550px;  /* Increase width */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer;  /* Make it clickable */
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+    transform: scale(1.1); /* Slight animation on hover */
+}
