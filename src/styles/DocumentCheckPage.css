@@ -1,0 +1,31 @@
+.doc-main{
+
+
+        background-image: url('../images/documentCheck.png'); /* Replace with your image path */
+        background-size: contain; /* Ensures the image covers the whole page */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Keeps the image fixed while scrolling (optional) */
+        height: 100% /* Ensures the full viewport height */
+   
+
+    
+
+
+}
+.button-group-dcp{
+    justify-content: space-evenly;
+    position: fixed;  
+    bottom: 0;  /* Pins buttons to the absolute bottom */
+    left: 50%;        
+    transform: translateX(-50%); /* Centers the container */
+    display: flex;
+    justify-content: center; /* Keeps buttons centered */
+    gap: 20px; /* Space between buttons */
+    width: auto;
+    border: 2px solid green;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    height:4%;
+}

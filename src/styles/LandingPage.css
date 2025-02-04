@@ -1,9 +1,10 @@
 /* Apply styles to the entire page */
-html, body {
-    height: 100%; /* Make sure the page takes full height */
+ /* body {
+   
     margin: 0;
     padding: 0;
-}
+    border: 2px solid yellow;
+} */
 
 /* Target the root container */
 div {
@@ -11,14 +12,16 @@ div {
     width: 100vw;  /* Make sure it takes up the full viewport width */
     
     /* Add Background Image */
-    background-image: url("../images/landingPageBackGround.png");
+    /* background-image: url("../images/landingPageBackGround.png"); */
     background-size: cover;  /* Ensures it covers the entire page */
     background-position: center;
     background-repeat: no-repeat;
 }
 .landing-page-button {
     text-align: center; /* Centers the button */
-    margin-top: 280px; /* Adds space between heading and button */
+    height: 22%;
+    margin-top: 400px;
+    
   }
   
   .custom-button {

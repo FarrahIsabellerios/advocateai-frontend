@@ -1,0 +1,148 @@
+/* body {
+    border: 2px orange solid;
+    height: 122%;
+   
+    
+} */
+
+
+.main-div{
+    border: 2px solid red;
+    /* height: 50%; */
+    /* height: 152%; */
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+.section-one-header {
+   
+
+    top: 20px;
+    left: 20px; 
+    width: 850px;
+    height: auto;
+  
+    
+}
+/* FORM CONTAINER */
+.form-container {
+    border: 2px solid pink;
+    width: 100%;
+    max-width: 600px; /* Limits width for a clean layout */
+    margin: 20px auto; 
+    padding: 30px;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: Arial, sans-serif;
+    height: 70%;
+  
+}
+
+/* FORM LABELS */
+form label {
+    display: block; /* Ensures labels are above inputs */
+    font-weight: bold;
+    margin-bottom: 5px; /* Adds spacing between label and input */
+    color: #333;
+}
+
+/* FORM INPUTS */
+form input, form select {
+    width: 60%; /* Full width of form container */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 16px;
+}
+
+/* CHECKBOX ALIGNMENT */
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* SUBMIT BUTTON */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF; /* Professional blue */
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* SUBMIT BUTTON HOVER EFFECT */
+
+/* .form-container {
+    background-color: red;
+    border: 2px solid red;
+} */
+
+/* Add a blue border to the header */
+
+
+/* Add a green border to the main page container */
+
+
+/* Add a yellow border to individual input fields */
+.form-container input {
+    border: 2px solid yellow;
+}
+
+/* .button-group{
+    width: 20%;
+    height: 18%;
+} */
+
+/* BUTTON GROUP - Aligns buttons with spacing */
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Ensures one button is left, one is right */
+    align-items: center; /* Aligns buttons vertically */
+    margin: 20px auto; /* Centers the div horizontally */
+    width: 60%; 
+    height: 6%;
+    /* border: 2px solid green; */
+}
+
+
+/* BUTTON STYLING */
+.button-group button {
+    flex: 1; /* Ensures both buttons take up equal space */
+    max-width: 150px; /* Adjusts button size */
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 62px;
+}
+
+/* BACK BUTTON */
+.button-group button:first-child {
+    background-color: #6c757d; /* Gray */
+    color: white;
+    margin-right: auto; /* Pushes it to the left */
+}
+
+/* NEXT BUTTON */
+.button-group button:last-child {
+    background-color: #007BFF; /* Blue */
+    color: white;
+    margin-left: auto; /* Pushes it to the right */
+}
+
+/* HOVER EFFECT */
+.button-group button:hover {
+    opacity: 0.8;
+}

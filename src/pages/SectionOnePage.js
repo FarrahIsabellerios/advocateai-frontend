@@ -14,6 +14,9 @@
 
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../styles/SectionOnePage.css"
+import sectionOne from "../images/sectionOne.png";
+
 
 const SectionOnePage = () => {
   const navigate = useNavigate();
@@ -45,8 +48,17 @@ const SectionOnePage = () => {
   };
 
   return (
-    <div className="container">
-      <h2>Parent/Guardian Information</h2>
+    <div className="main-div">
+        <img 
+              src={sectionOne} 
+              alt="section one header" 
+              className="section-one-header"
+              
+            />
+    <div className="form-container">
+
+      
+         
       <form onSubmit={handleSubmit}>
         <label>Full Name:</label>
         <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} required />
@@ -88,13 +100,16 @@ const SectionOnePage = () => {
         <label>Relationship to Student:</label>
         <input type="text" name="relationshipToStudent" value={formData.relationshipToStudent} onChange={handleChange} required />
 
-        <div className="button-group">
-          
-     <button onClick={() => window.location.href = "/section-two"}>Next</button>
-      <button onClick={() => window.location.href = "/document-check"}>Back</button>
-
-        </div>
+       
       </form>
+      
+    </div>
+    <div className="button-group">
+          
+          <button onClick={() => window.location.href = "/section-two"}>Next</button>
+           <button onClick={() => window.location.href = "/document-check"}>Back</button>
+     
+             </div>
     </div>
   );
 };
